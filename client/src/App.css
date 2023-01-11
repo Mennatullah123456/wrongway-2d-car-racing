@@ -1,0 +1,63 @@
+/* Add styles for the root App component */
+.App {
+  /* Set the background color to white */
+  background-color: #ffffff;
+
+  /* Center the app on the page */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Add styles for the Game component */
+.Game {
+  /* Set the width and height of the game screen */
+  width: 800px;
+  height: 600px;
+
+  /* Set the background color to black */
+  background-color: #000000;
+}
+
+/* Add styles for the PlayerCar component */
+.PlayerCar {
+  /* Set the width and height of the car sprite */
+  width: 50px;
+  height: 100px;
+
+  /* Use the player-car.png image as the background */
+  background-image: url('player-car.png');
+  background-size: cover;
+
+  /* Position the car sprite at the center of the screen */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Add styles for the OtherCar component */
+.OtherCar {
+  /* Set the width and height of the car sprite */
+  width: 50px;
+  height: 100px;
+
+  /* Use the other-car.png image as the background */
+  background-image: url('other-car.png');
+  background-size: cover;
+}
+
+/* Add styles for the GameOver component */
+.GameOver {
+  /* Set the font and font size for the game over screen */
+  font-family: 'Saira', sans-serif;
+  font-size: 36px;
+
+  /* Set the text color to red */
+  color: #ff0000;
+
+  /* Center the text on the screen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

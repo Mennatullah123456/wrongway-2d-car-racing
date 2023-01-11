@@ -1,0 +1,15 @@
+/* Add styles for the Game component */
+.Game {
+    /* Set the width and height of the game screen */
+    width: 800px;
+    height: 600px;
+  
+    /* Set the background color to black */
+    background-color: #000000;
+  
+    /* Center the game screen on the page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

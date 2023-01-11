@@ -1,0 +1,42 @@
+/* Add styles for the GameOver component */
+.GameOver {
+    /* Set the font and font size for the game over screen */
+    font-family: 'Saira', sans-serif;
+    font-size: 36px;
+  
+    /* Set the text color to red */
+    color: #ff0000;
+  
+    /* Center the text on the screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Add styles for the Play Again button */
+  .GameOver button {
+    /* Set the font and font size for the button */
+    font-family: 'Saira', sans-serif;
+    font-size: 18px;
+  
+    /* Set the background color to white */
+    background-color: #ffffff;
+  
+    /* Set the border color to red */
+    border-color: #ff0000;
+  
+    /* Set the text color to red */
+    color: #ff0000;
+  
+    /* Add some padding to the button */
+    padding: 10px 20px;
+  
+    /* Add a hover effect to the button */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  
+    &:hover {
+      background-color: #ffaaaa;
+    }
+  }
+  
